@@ -6,4 +6,8 @@ describe("triangleType", function() {
   it("returns 'equilateral' for inputs 4, 4 and 4", function() {
     expect(triangleType(4, 4, 4)).to.equal("equilateral");
   });
+
+  it("returns 'isosceles' for inputs 10, 4 and 10", function() {
+    expect(triangleType(10, 4, 10)).to.equal("isosceles");
+  });
 });
