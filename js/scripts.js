@@ -14,6 +14,9 @@ var triangleType = function(side1, side2, side3) {
   else if ((sides[0] === sides[1]) || (sides[1] === sides[2])) {
     triType = "isosceles";
   }
+  else {
+    triType = "scalene";
+  }
 
   return triType;
 };

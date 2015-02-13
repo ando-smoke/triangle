@@ -10,4 +10,8 @@ describe("triangleType", function() {
   it("returns 'isosceles' for inputs 10, 4 and 10", function() {
     expect(triangleType(10, 4, 10)).to.equal("isosceles");
   });
+
+  it("returns 'scalene' for inputs 4, 3 and 5", function() {
+    expect(triangleType(4, 3, 5)).to.equal("scalene");
+  });
 });
