@@ -5,7 +5,8 @@ var triangleType = function(side1, side2, side3) {
     return a - b;
   });
 
-  if (sides[0] + sides[1] <= sides[2]) {
+  if ((side1 <= 0) || (side2 <= 0) || (side3 <= 0) ||
+      (sides[0] + sides[1] <= sides[2])) {
     triType = "not a valid triangle";
   }
   else if ((side1 === side2) && (side2 === side3)) {

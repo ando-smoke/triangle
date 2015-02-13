@@ -14,4 +14,8 @@ describe("triangleType", function() {
   it("returns 'scalene' for inputs 4, 3 and 5", function() {
     expect(triangleType(4, 3, 5)).to.equal("scalene");
   });
+
+  it("returns 'not a valid triangle' where any of the inputs are nonpositive", function() {
+    expect(triangleType(-3, -4, -5)).to.equal("not a valid triangle");
+  });
 });
