@@ -12,7 +12,7 @@ Installation
 Clone this project onto your local system and open the enclosed
 triangle.html file in your preferred web browser. Of note, a browser
 utilizing HTML5 is required for proper data validation of inputs
-to take place (i.e. nonnegative integers are required for all three
+(i.e. nonnegative integers are required for all three
 fields).
 
 Usage
